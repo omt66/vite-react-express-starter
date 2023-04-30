@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch index.ts via tsx",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "tsx -- src/index.ts",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
