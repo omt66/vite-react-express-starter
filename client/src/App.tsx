@@ -5,6 +5,10 @@ import './App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
+  console.log("App MODE: ", import.meta.env.MODE)
+  console.log("App BASE_URL: ", import.meta.env.BASE_URL)
+  console.log("App VITE_APP_TITLE: ", import.meta.env.VITE_APP_TITLE)
+  console.log("App VITE_APP_INFO: ", import.meta.env.VITE_APP_INFO)
 
   return (
     <>
